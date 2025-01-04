@@ -41,7 +41,7 @@ global.autoreact = process.env.AUTO_REACT === 'true';
 
 global.WELCOME = process.env.WELCOME === 'true';
 
-global.prefix = process.env.PREFIX || '/';
+global.prefix = process.env.PREFIX || '.';
 
 global.autobio = process.env.AUTO_BIO === 'true';
 
